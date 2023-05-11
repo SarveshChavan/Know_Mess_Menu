@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="custmenu" fx:id="base_anchorr" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="800.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mess_system.HelloController">
+   <children>
+      <Label layoutX="276.0" layoutY="128.0" onMouseClicked="#gotoMess1" prefHeight="92.0" prefWidth="470.0" text="Shrinidhi Mess" textFill="#632828db">
+         <font>
+            <Font name="Rockwell" size="38.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label layoutX="276.0" layoutY="233.0" onMouseClicked="#gotoMess2" prefHeight="78.0" prefWidth="490.0" text="Sugam Mess" textFill="#612828da">
+         <font>
+            <Font name="Rockwell" size="38.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Circle fill="#080808" layoutX="222.0" layoutY="174.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#080808" layoutX="222.0" layoutY="272.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="132.0" layoutY="30.0" onMouseClicked="#gotoMess1" prefHeight="70.0" prefWidth="581.0" text="Available Mess">
+         <font>
+            <Font name="Rockwell" size="38.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Label layoutX="72.0" layoutY="568.0" onMouseClicked="#gotoMess1" prefHeight="70.0" prefWidth="423.0" text="Regular Customer Can">
+         <font>
+            <Font name="Rockwell" size="38.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Button layoutX="495.0" layoutY="573.0" mnemonicParsing="false" onAction="#AttLogin" prefHeight="46.0" prefWidth="166.0" style="-fx-background-color: Black;" text="Login" textFill="#fafafa">
+         <font>
+            <Font name="Rockwell" size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

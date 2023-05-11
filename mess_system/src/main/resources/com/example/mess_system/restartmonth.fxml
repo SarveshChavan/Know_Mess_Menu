@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="230.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mess_system.HelloController">
+   <children>
+      <Label layoutX="38.0" layoutY="23.0" prefHeight="52.0" prefWidth="220.0" text="Month is Completed">
+         <font>
+            <Font name="Rockwell Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="88.0" prefHeight="52.0" prefWidth="202.0" text="Want to Restart ?">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="80.0" layoutY="148.0" mnemonicParsing="false" onAction="#restart" text="Yes">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="198.0" layoutY="148.0" mnemonicParsing="false" onAction="#stop" text="No">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

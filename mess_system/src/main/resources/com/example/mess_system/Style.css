@@ -1,0 +1,38 @@
+#starting{
+    -fx-background-image: url('choicebg.jpg');
+    -fx-background-size: cover;
+}
+#btnown{
+    -fx-background-image: url('profile.png');
+    -fx-background-size: cover;
+}
+#btncus{
+    -fx-background-image: url('btn2.jpg');
+    -fx-background-size: cover;
+}
+#log{
+    -fx-background-image: url('login.jpg');
+    -fx-background-size: cover;
+}
+#Ownermenu{
+    -fx-background-image: url('Ownermenu.jpg');
+    -fx-background-size: cover;
+}
+#custmenu{
+    -fx-background-image: url('custbg.jpg');
+    -fx-background-size: cover;
+}
+#insert{
+    -fx-background-image: url('OwnerInsert.jpg');
+    -fx-background-size: cover;
+
+}
+#side{
+    -fx-background-image: url('side.jpg');
+    -fx-background-size: cover;
+
+}
+/*Messmen{*/
+/*    -fx-background-image: url('Menubg1.png');*/
+/*    -fx-background-size: cover;*/
+/*}*/

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1325.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mess_system.Showmenu">
+   <content>
+      <TableView fx:id="menutable" layoutY="2.0" prefHeight="181.0" prefWidth="598.0" translateX="400.0" translateY="250.0">
+         <columns>
+            <TableColumn fx:id="srno" prefWidth="298.3999938964844" text="Serial No" />
+            <TableColumn fx:id="itemn" prefWidth="298.4000244140625" text="Item Name" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </content>
+   <padding>
+      <Insets left="10.0" top="20.0" />
+   </padding>
+</ScrollPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1325.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mess_system.ShowCust">
+   <content>
+      <TableView fx:id="custtable" layoutY="2.0" prefHeight="302.0" prefWidth="594.0" translateX="400.0" translateY="200.0">
+         <columns>
+            <TableColumn fx:id="custid" prefWidth="75.0" text="Mess Id" />
+            <TableColumn fx:id="name" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="att" prefWidth="75.0" text="Attendance" />
+            <TableColumn fx:id="amt" prefWidth="75.0" text="Paid Amount" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </content>
+   <padding>
+      <Insets left="10.0" top="20.0" />
+   </padding>
+</ScrollPane>

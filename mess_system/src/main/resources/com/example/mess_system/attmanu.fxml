@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="custmenu" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="500.0" style="-fx-background-radius: 40;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mess_system.showAttendance">
+   <padding>
+      <Insets right="40.0" />
+   </padding>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <cursor>
+      <Cursor fx:constant="DISAPPEAR" />
+   </cursor>
+   <children>
+      <Label alignment="CENTER" layoutX="27.0" layoutY="164.0" prefHeight="46.0" prefWidth="327.0" text="Days Completed : ">
+         <font>
+            <Font name="Rockwell" size="38.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Label fx:id="days" alignment="CENTER" layoutX="354.0" layoutY="164.0" prefHeight="46.0" prefWidth="129.0" text="days">
+         <font>
+            <Font name="Rockwell" size="38.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Label alignment="CENTER" layoutX="27.0" layoutY="224.0" prefHeight="70.0" prefWidth="298.0" text="Paid Amount :">
+         <font>
+            <Font name="Rockwell" size="38.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Label fx:id="paid" alignment="CENTER" layoutX="325.0" layoutY="236.0" prefHeight="46.0" prefWidth="136.0" text="paid">
+         <font>
+            <Font name="Rockwell" size="38.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>
