@@ -8,8 +8,6 @@
 ![1](https://github.com/Lomesh21/Know_Mess_Menu/assets/94422862/001262db-76ea-4fa1-b4e1-27f3b56b7ac6)
 ### Login Page
 ![2](https://github.com/Lomesh21/Know_Mess_Menu/assets/94422862/36894ccc-23d6-445d-a1c2-fe27df440cc8)
-### Dashboard Page
-![3](https://github.com/Lomesh21/Know_Mess_Menu/assets/94422862/f9f695b2-387f-4ddb-a68f-d6e20d9f39eb)
 ### Set Item Page
 ![4](https://github.com/Lomesh21/Know_Mess_Menu/assets/94422862/14114540-ebab-4848-a37a-0681e0b9ecfc)
 ### Show Menu Page
